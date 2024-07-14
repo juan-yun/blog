@@ -1,5 +1,5 @@
 ---
-title: Linux基础复写记录
+title: Linux基础复习记录
 date: 2024-07-14 16:45:08
 tags: 一生一芯 Linux shell
 ---
