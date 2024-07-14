@@ -103,4 +103,4 @@ theme:  gstyle
 deploy:
   type: git
   repo: git@github.com:juan-yun/juan-yun.github.io.git
-  branch: master
+  branch: main
