@@ -36,6 +36,16 @@ tags: 一生一芯 Linux shell
 
   
 
+- ```
+  flock -n [锁文件的路径] [你需要执行的命令]
+  ```
+
+  如果其他命令正在执行，那么这个文件锁会被其占用；crontab 尝试再执行命令时，flock 会发现对应的文件已经锁上，因此会立刻退出（`-n` 参数）。
+
+- 正则表达式，是我一直以来都没有很好掌握的章节[Shell 高级文本处理与正则表达式](https://101.ustclug.org/Ch09/) ， 我的基本使用原则是，不理解的表达式不用。
+
+
+
 ## [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
 
 ##  [The Missing Semester of Your CS Education](https://missing-semester-cn.github.io/)
@@ -46,5 +56,7 @@ tags: 一生一芯 Linux shell
 
 ## 高价值信息
 
-
-
+- [*The TTY demystified* 中文翻译](https://www.cnblogs.com/liqiuhao/p/9031803.html)
+- [The TTY demystified](http://www.linusakesson.net/programming/tty/)
+- [正则表达式101站点， 包括一个正则表达式解析工具](https://regex101.com/)
+- 
